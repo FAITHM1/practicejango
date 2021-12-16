@@ -20,5 +20,5 @@ import routes.views as Routeview
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/',Routeview.HelloWorld),
-    path('todo/',Routeview.index)
+    path('tod/',Routeview.index)
 ]
